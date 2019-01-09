@@ -1,0 +1,212 @@
+   .backgroundimg{
+    
+    background-color: #1E2832;
+    
+    
+    background-image: url("central.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.allignmenta{
+   
+  background: rgba(0,00,00,0.7);
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 250px;
+    font-family: 'Merriweather', serif;
+}
+h1{
+  padding-left: 10px;
+
+}
+
+.do-padding{
+  
+}
+
+
+
+
+.size-allotment{
+  width: 200px;
+  height: 200px;
+}
+
+.btn {
+  background-color: rgb(50,00,100); /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+   list-style-type: none;
+}
+li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header-per{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 2px 2px 2px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-right .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.dropbtn {
+   padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:  #818181;
+  display: block;
+  transition: 0.3s;
+  background-color: black;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  overflow: auto;
+  z-index: 1;
+  padding-left: 32px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color oa dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ddd;}
+
+.frontBar{
+ /* 100% Full-height */
+  width: 50%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+ /* Stay at the top */
+  left: 20px; /* Black*/
+
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 25px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.table-per{
+  font-size: 15px;
+
+}

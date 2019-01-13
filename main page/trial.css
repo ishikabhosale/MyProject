@@ -226,3 +226,56 @@ li{
     flex-wrap: wrap;
   }
 }
+
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  background-image: url(ahh.jpg);
+  color: white;
+  margin-top: 122px;
+
+  
+}
+
+.row1{
+  padding-top: 25px;
+}
+.social-links{
+  display: inline;
+}
+.quick-links{
+  display: inline;
+}
+
+.bootom{
+  background-color: black;
+  width: 100%;
+  height: auto;
+  min-height: 20px;
+
+}
+
+.para{
+  color: white;
+  margin-bottom: 0;
+  font-size: 15px;
+  display: inline-block;
+  padding-left: 500px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: red;    }
+}

@@ -120,7 +120,7 @@ li{
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
+/* The container <div> - needed to position the  content */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -136,6 +136,11 @@ li{
   overflow: auto;
   z-index: 1;
   padding-left: 32px;
+}
+
+
+#droplist li a{
+  font-size: 15px;
 }
 
 /* Links inside the dropdown */
@@ -242,9 +247,23 @@ li{
 
   
 }
+.wrap{
+    text-align:center
+}
+.left{
+    float: left;
+    background:grey
+}
+.right{
+    float: right;
+    background:red
+}
+.center{
+ 
+    background:green;
+    margin:0 auto;
+   display:inline-block
 
-.row1{
-  padding-top: 25px;
 }
 .social-links{
   display: inline;
@@ -256,7 +275,6 @@ li{
 .bootom{
   background-color: black;
   width: 100%;
-  height: auto;
   min-height: 20px;
 
 }
@@ -266,8 +284,8 @@ li{
   margin-bottom: 0;
   font-size: 15px;
   display: inline-block;
-  padding-left: 500px;
-  padding-top: 3px;
+  padding-left: 400px;
+  padding-top: 1px;
   padding-bottom: 5px;
 }
 
@@ -279,3 +297,52 @@ li{
     99%{    color:transparent;  }
     100%{   color: red;    }
 }
+
+
+
+
+hr.style-one {
+border: 0;
+height: 2px;
+background: #333;
+background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+
+
+/***** Footer *****/
+
+.footer-top { padding: 60px 0; background: #333; text-align: left; color: #aaa; }
+.footer-top h3 { padding-bottom: 10px; color: #fff; }
+
+.footer-about img.logo-footer { max-width: 74px; margin-top: 0; margin-bottom: 18px; }
+.footer-about p a { color: #aaa; border-bottom: 1px dashed #666; }
+.footer-about p a:hover, .footer-about p a:focus { color: #fff; border-color: #aaa; }
+
+.footer-contact p { word-wrap: break-word; }
+.footer-contact i { padding-right: 10px; font-size: 18px; color: #666; }
+.footer-contact p a { color: #aaa; border-bottom: 1px dashed #666; }
+.footer-contact p a:hover, .footer-contact p a:focus { color: #fff; border-color: #aaa; }
+
+.footer-social a { display: inline-block; margin-right: 20px; margin-bottom: 8px; color: #777; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: #aaa; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+
+.footer-bottom { padding: 15px 0; background: #444; text-align: left; color: #aaa; }
+
+.footer-copyright p { margin: 0; padding: 0.5rem 0; }
+.footer-copyright a { color: #fff; border: 0; }
+.footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; }
+
+/* footer navbar */
+.navbar { padding: 0; background: #444; backface-visibility: hidden; }
+
+.navbar-dark .navbar-nav { font-size: 15px; color: #fff; font-weight: 400; }
+.navbar-dark .navbar-nav .nav-link { color: #fff; border: 0; }
+.navbar-dark .navbar-nav .nav-link:hover { color: #aaa; }
+.navbar-dark .navbar-nav .nav-link:focus { color: #aaa; outline: 0; }
+
+.navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }

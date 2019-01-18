@@ -360,3 +360,33 @@ table a{
 h1{
   font-family: 'Staatliches', cursive;
 }
+
+
+
+p.link1 a:hover{
+  text-decoration: none;
+ 
+
+}
+
+
+
+
+div.padding-per a:hover{
+  text-decoration: none;
+}
+
+
+ul.link3 a:hover{
+  text-decoration: none;
+  
+}
+
+ul.link4 li{
+  font-size: 20px;
+
+
+}
+
+
+
